@@ -11,7 +11,7 @@ import SwiftUI
 struct TopTenFavouriteThingsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TopTen(chosenTopTen: Pizza)
         }
     }
 }
