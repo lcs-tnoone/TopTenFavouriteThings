@@ -13,7 +13,7 @@ struct TopTenListView: View {
             List(TopTenThings) { currentItem in
                 TopTen(chosenTopTen: currentItem)
             }
-            .navigationTitle("Top Ten Things")
+            .navigationTitle(" My Top Ten Things")
         }
     }
 }
