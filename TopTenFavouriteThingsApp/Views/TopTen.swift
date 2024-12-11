@@ -13,9 +13,15 @@ struct TopTen: View {
     
     var body: some View {
         VStack(alignment: .leading){
-            Image(systemName: "\(chosenTopTen.thingimage)")
-            Text(chosenTopTen.name)
-                .font(.largeTitle)
+            HStack{
+                Image(chosenTopTen.thingimage)
+                    .resizable()
+                        .scaledToFill()
+                        .frame(width: 50, height: 50, alignment: .center)
+                        .clipped()
+                Text(chosenTopTen.name)
+                    .font(.largeTitle)
+            }
             Text(chosenTopTen.description)
                     }
         .padding()
