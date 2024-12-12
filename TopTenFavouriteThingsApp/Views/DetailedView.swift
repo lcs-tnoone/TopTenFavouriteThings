@@ -20,7 +20,7 @@ struct DetailedView: View {
                     .resizable()
                         .scaledToFill()
                     
-                Text(chosenTopTen.shortdescription)
+                Text(chosenTopTen.longDescription)
             }
             .padding()
         }
@@ -30,6 +30,6 @@ struct DetailedView: View {
  
 #Preview {
     NavigationStack {
-        DetailedView(chosenTopTen: Snowboarding)
+        DetailedView(chosenTopTen: Pizza)
     }
 }

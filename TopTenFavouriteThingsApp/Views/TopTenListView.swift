@@ -21,7 +21,7 @@ struct TopTenListView: View {
 
                 
             }
-            .navigationTitle(" My Top Ten Things")
+            .navigationTitle("My Top Ten Things")
         }
     }
 }
