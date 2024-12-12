@@ -11,7 +11,15 @@ struct TopTenListView: View {
     var body: some View {
         NavigationView {
             List(TopTenThings) { currentItem in
-                TopTen(chosenTopTen: currentItem)
+                
+                NavigationLink {
+                    DetailedView(chosenTopTen: currentItem)
+                } label: {
+                    TopTen(chosenTopTen: currentItem)
+
+                }
+
+                
             }
             .navigationTitle(" My Top Ten Things")
         }

@@ -13,6 +13,7 @@
 		E946E14A2D09F7570041E3D9 /* TopTenFavouriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E1452D09F7570041E3D9 /* TopTenFavouriteThingsApp.swift */; };
 		E946E14D2D09F7B40041E3D9 /* TopTenListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E14C2D09F7B40041E3D9 /* TopTenListView.swift */; };
 		E946E1502D09F7CF0041E3D9 /* TopTenArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E14F2D09F7CF0041E3D9 /* TopTenArray.swift */; };
+		E946E1522D0B47A50041E3D9 /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E1512D0B47A50041E3D9 /* DetailedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		E946E1452D09F7570041E3D9 /* TopTenFavouriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTenFavouriteThingsApp.swift; sourceTree = "<group>"; };
 		E946E14C2D09F7B40041E3D9 /* TopTenListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTenListView.swift; sourceTree = "<group>"; };
 		E946E14F2D09F7CF0041E3D9 /* TopTenArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTenArray.swift; sourceTree = "<group>"; };
+		E946E1512D0B47A50041E3D9 /* DetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				E946E1442D09F7570041E3D9 /* TopTen.swift */,
 				E946E14C2D09F7B40041E3D9 /* TopTenListView.swift */,
+				E946E1512D0B47A50041E3D9 /* DetailedView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			files = (
 				E946E1492D09F7570041E3D9 /* TopTen.swift in Sources */,
 				E946E1502D09F7CF0041E3D9 /* TopTenArray.swift in Sources */,
+				E946E1522D0B47A50041E3D9 /* DetailedView.swift in Sources */,
 				E946E14A2D09F7570041E3D9 /* TopTenFavouriteThingsApp.swift in Sources */,
 				E946E14D2D09F7B40041E3D9 /* TopTenListView.swift in Sources */,
 			);

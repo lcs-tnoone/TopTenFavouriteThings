@@ -22,7 +22,7 @@ struct TopTen: View {
                 Text(chosenTopTen.name)
                     .font(.largeTitle)
             }
-            Text(chosenTopTen.description)
+            Text(chosenTopTen.shortdescription)
                     }
         .padding()
     }
